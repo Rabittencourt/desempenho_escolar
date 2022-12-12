@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import seaborn as sns
+from funcoes import carrega_dataset
 
 with st.expander('Cabeçalho'):
     st.title('Programa Diversidade Tech')
@@ -24,10 +25,14 @@ with st.expander('Introdução'):
     ### Dataset Columns
     """)
     st.markdown("""
-    1. gender - Gênero (booleana: 'female' ou 'male')
-    2. race/ethnicity - raça/etnia (nominal: 5 grupos 'group A', 'group B' etc.)
-    3. parental level of education - nível educacional dos responsáveis (nominal: 'some college', '')
-    4.
+    1. gender - Gênero: (booleana: 'female' ou 'male')
+    2. race/ethnicity - raça/etnia: (nominal: 5 grupos 'group A', 'group B' etc.)
+    3. parental level of education - nível educacional dos responsáveis: (nominal: 'some college', '')
+    4. lunch - Almoço (ou refeição): (nominal: 'standard' e 'free/reduced' ) 
+    5. test preparation course - curso preparatório para testes (nominal: 'none' e 'completed')
+    6. math score - Nota em matemática (inteiro: 0 a 100)
+    7. reading score - Nota em leitura (inteiro: 0 a 100)
+    8. writing score - Nota em escrita (inteiro: 0 a 100)
     """)
     
 # função que carrega o dataset
