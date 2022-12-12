@@ -16,9 +16,9 @@ radio
 
 sidebar
 expander
-6 - Bônus: colocar em produção Link Streamlit:
+6 - Bônus: colocar em produção Link Streamlit
 
-Desafio concluído por:
+## Desafio concluído por:
 
 - Cíntia Dantas
 
@@ -27,3 +27,5 @@ Desafio concluído por:
 - Júnior Aguiar
 
 - Rafael Bittencourt
+
+** Link Streamlit:

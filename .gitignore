@@ -3,8 +3,6 @@ venv/
 
 #python
 __pycache__/
-Ver.py
 
 # jupyter notebooks
 .ipynb_checkpoints
-*resposta.ipynb
