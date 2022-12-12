@@ -28,4 +28,4 @@ expander
 
 - Rafael Bittencourt
 
-** Link Streamlit:
+** Link Streamlit: https://rabittencourt-desempenho-escolar-desempenho-m5ygzz.streamlit.app/
